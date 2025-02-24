@@ -1,9 +1,15 @@
-# Lens Modeling
-*by Dr. Simon Birrer*
+<style>
+    h1 {
+        margin-bottom: 0;
+    }
+</style>
+<h1 style="text-align:center">Lens Modeling</h1>
+<p style="text-align:center"><i>Project created by Dr. Simon Birrer at Stony Brook University</i></p>
+<br>
 
----
+<hr>
 
-## Objective
+<h2>Objective</h2>
 
 This project aims to:
 
@@ -15,7 +21,7 @@ The project is a derivative of the [lens modeling tutorial](https://github.com/
 
 The final product of this project is a Jupyter notebook presenting the modeling of a real lens observed by the Hubble Space Telescope.
 
-## Modeling a Mock Lens
+<h2>Modeling a Mock Lens</h2>
 
 - [ ]  Check out the notebook [*Fitting a Lens Model by Hand*](https://github.com/ajshajib/lens_modeling_tutorial/blob/main/notebooks/Fitting%20a%20lens%20model%20by%20hand.ipynb) and try to develop an intuition for how different parameters involved in a lensing system can change the look of the system.
     - [ ]  Create a perfectly round Einstein ring by appropriately choosing the slider values in the section *Simulating a Lens System*.
@@ -24,7 +30,7 @@ The final product of this project is a Jupyter notebook presenting the modeling 
 - [ ]  Understand everything that is being done in the notebook. (It’s fine to not fully understand `kwargs_likelihood` and `kwargs_numerics` at this point.)
 - [ ]  Run an MCMC after the PSO (Particle Swarm Optimization). Ensure that the MCMC chain has converged. Obtain the best-fit values and uncertainties for $\theta_E$ and $\gamma$.
 
-## **Modeling a Real Hubble Space Telescope Image**
+<h2>Modeling a Real Hubble Space Telescope Image</h2>
 
 - [ ]  Read the paper by [Rafee et al](https://ui.adsabs.harvard.edu/abs/2024arXiv241200361R/abstract).
 - [ ]  Pick one lens from the [BDLensing repository](https://github.com/AstroBridge/BDLensing/tree/main/lens_systems) that was modeled by Rafee et al.
