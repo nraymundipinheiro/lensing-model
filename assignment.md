@@ -1,8 +1,3 @@
-<style>
-    h1 {
-        margin-bottom: 0;
-    }
-</style>
 <h1 style="text-align:center">Lens Modeling</h1>
 <p style="text-align:center"><i>Project created by Dr. Simon Birrer at Stony Brook University</i></p>
 <br>
