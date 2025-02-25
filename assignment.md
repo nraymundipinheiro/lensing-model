@@ -2,7 +2,6 @@
 <p style="text-align:center"><i>Project created by Dr. Simon Birrer at Stony Brook University</i></p>
 <br>
 
-<hr>
 
 <h2>Objective</h2>
 
@@ -19,7 +18,7 @@ The final product of this project is a Jupyter notebook presenting the modeling 
 <h2>Modeling a Mock Lens</h2>
 
 - [ ]  Check out the notebook [*Fitting a Lens Model by Hand*](https://github.com/ajshajib/lens_modeling_tutorial/blob/main/notebooks/Fitting%20a%20lens%20model%20by%20hand.ipynb) and try to develop an intuition for how different parameters involved in a lensing system can change the look of the system.
-    - [ ]  Create a perfectly round Einstein ring by appropriately choosing the slider values in the section *Simulating a Lens System*.
+    - [x]  Create a perfectly round Einstein ring by appropriately choosing the slider values in the section *Simulating a Lens System*.
     - [ ]  In the section *Demonstration of Lens Modeling by Tuning Parameters by Hand*, try to achieve a reduced $\chi^2$ as close to 1 as possible. If you want to look at the right answers, they’re given here.
 - [ ]  Work with the notebook [*Intro to Lens Modeling with Lenstornomy.*](https://github.com/ajshajib/lens_modeling_tutorial/blob/main/notebooks/Intro%20to%20lens%20modeling%20with%20lenstronomy.ipynb) Fit the lensing system given to you. The fitting is done well when you get a reduced $\chi^2$ very close to 1.
 - [ ]  Understand everything that is being done in the notebook. (It’s fine to not fully understand `kwargs_likelihood` and `kwargs_numerics` at this point.)
