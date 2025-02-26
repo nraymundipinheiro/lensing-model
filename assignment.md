@@ -22,7 +22,7 @@ The final product of this project is a Jupyter notebook presenting the modeling 
     - [ ]  In the section *Demonstration of Lens Modeling by Tuning Parameters by Hand*, try to achieve a reduced $\chi^2$ as close to 1 as possible. If you want to look at the right answers, they’re given here.
 - [x]  Work with the notebook [*Intro to Lens Modeling with Lenstornomy.*](https://github.com/ajshajib/lens_modeling_tutorial/blob/main/notebooks/Intro%20to%20lens%20modeling%20with%20lenstronomy.ipynb) Fit the lensing system given to you. The fitting is done well when you get a reduced $\chi^2$ very close to 1.
 - [x]  Understand everything that is being done in the notebook. (It’s fine to not fully understand `kwargs_likelihood` and `kwargs_numerics` at this point.)
-- [ ]  Run an MCMC after the PSO (Particle Swarm Optimization). Ensure that the MCMC chain has converged. Obtain the best-fit values and uncertainties for $\theta_E$ and $\gamma$.
+- [x]  Run an MCMC after the PSO (Particle Swarm Optimization). Ensure that the MCMC chain has converged. Obtain the best-fit values and uncertainties for $\theta_E$ <i>(got 0.56)</i> and $\gamma$ <i>(got 2.10)</i>.
 
 <h2>Modeling a Real Hubble Space Telescope Image</h2>
 
